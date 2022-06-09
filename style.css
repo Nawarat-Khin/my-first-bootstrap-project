@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-size: 18px; */
+    /* overflow: hidden; */
+}
+/* -------------------Home Section--------------- */
+.pizza-logo{
+    width: 80px;
+}
+
+header{
+    
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)) , url(resources/img/bg\ pizza.jpg);
+    background-size: cover;
+    
+    width: 100%;
+    height: 100vh;
+    /* background-position: center; */
+     background-attachment: fixed;
+    
+}
+
+.mynav{
+   
+    margin-left: auto;
+}
+
+/* .mynav:hover>li,.mynav>li:active{
+    border-bottom: 1px solid #eb2f06;
+    transition: .1s;
+} */
+
+#main-content{
+    display: inline-block;
+    padding-left: 100px;
+    padding-top: 150px;
+}
+
+/* -------------------Home Section--------------- */
+
+/* ----------------Menu Secion-------------------- */
+#menu-section{
+    margin-bottom: 0;
+}
+
+.menu-main-pra{
+    border-bottom: 1px solid #eb2f06;
+}
+.menu-cardbox li{
+    display: inline-block;
+    list-style: none;
+    padding: 10px;
+
+    
+    
+}
+
+.menu-cardbox{
+    
+     margin-left: 50px;
+}
+/* ----------------Menu Secion-------------------- */
+
+/* -------------------Customers' reviews----------- */
+
+#customer-reviews{
+  background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(resources/img/back-customers.jpg);
+  width: 100%;
+  /* height: 100vh; */
+  background-size: cover;
+  background-attachment: fixed;
+
+}
+
+#Reviews-Header{
+    border-bottom: 1px solid #eb2f06;
+    
+}
+
+blockquote{
+    padding: 5%;
+    line-height: 140%;
+    top:;
+}
+
+cite{
+    display: block;
+    text-align: justify;
+    margin-top: 20px;
+}
+
+cite img{
+    height: 70px;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+/* -------------------Customers' reviews----------- */
+
+/*-- -------------About section Start----------- --*/
+
+.about-para{
+    text-align: justify;
+    
+}
+
+.about-header{
+    text-decoration:underline #eb2f06;
+    
+}
+/*----------------About Section End-------------- */
+
+/* --------------Contact Section Start------------- */
+    
+    #contact-section{
+        background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(resources/img/view-modern-buildings-with-sky-background.jpg);
+        width: 100%;
+        /* height: 100vh;  */
+        background-size: cover;
+        background-attachment: fixed;
+    }
+
+   
+
+    #contact-section h2{
+        border-bottom: 1px solid #eb2f06;
+    }
+    #contact-icon{
+        font-size: 40px;
+       padding-right: 10px;
+        
+    }
+
+    .contact-container{
+        /* text-align: center; */
+            
+    }
+
+/* --------------Contact Section End-------------- */
+
+/* ---------------fre-ques section start--------------- */
+#fre-ques-section h2{
+    border-bottom: 1px solid #eb2f06;
+}
+
+/* -----------------fre-ques section end--------------- */
+/* ------------------Media query--------------- */
+@media screen and (max-width:380px) {
+    #main-content{
+        padding-left: 30px;
+        padding-top:30px ;
+    }
+
+    .about-para{
+        word-spacing: 1px;
+        
+    }
+
+  
+}
+
+@media screen and (max-width:420px) {
+    
+    #main-content{
+         padding-left: 30px;
+        padding-top:30px ;
+    }
+}
+/* ------------------Media query--------------- */
